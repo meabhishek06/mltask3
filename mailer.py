@@ -15,14 +15,14 @@ def mailer():
     
     try:
         text = """\
-        The Mnist keras model has been trained with accuracy $(sudo cat /root/task3/acc.txt )
+        The Mnist keras model has been trained 
         """
         html = """\
         <html>
           <body>
             <p>Hi,<br>
                There was no problem in build : 
-			   The Mnist keras model has been trained with accuracy $(sudo cat /root/task3/acc.txt )<b></b>
+			   The Mnist keras model has been trained with successfully <b></b>
                <br>
             </p>
           </body>
