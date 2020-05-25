@@ -104,7 +104,7 @@ loss_and_metrics = mnist_model.evaluate(X_test, Y_test, verbose=2)
 
 print("Test Loss", loss_and_metrics[0])
 print("Test Accuracy", loss_and_metrics[1])
-with open('acc.txt', 'w') as f:
+with open('/train/acc.txt', 'w') as f:
     f.write("%.2f" % accuracy)
 
 # In[ ]:
