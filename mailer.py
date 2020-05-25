@@ -21,7 +21,8 @@ def mailer():
         <html>
           <body>
             <p>Hi,<br>
-               There was no problem in build : <b></b>
+               There was no problem in build : 
+			   The Mnist keras model has been trained with accuracy $(sudo cat /root/task3/acc.txt )<b></b>
                <br>
             </p>
           </body>
