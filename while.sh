@@ -1,9 +1,10 @@
-pre=0.98
-while [$i -lt 8]
+pre=98
+i=2
+while [ "$i" -lt 8 ]
 do
  var=$(sudo cat /root/task3/acc.txt )
  echo $var
- if [$var -lt $pre]
+ if [ "$var" -lt "$pre" ]
  then
   sudo docker exec  d1 python3.7 /train/mnist$i.py
   var=$(sudo cat /root/task3/acc.txt )
