@@ -9,7 +9,7 @@ def mailer():
     password = "houseofdead"
 
     message = MIMEMultipart("alternative")
-    message["Subject"] = "Job 3 Build Failed"
+    message["Subject"] = "Job  Build Successfull"
     message["From"] = sender_email
     message["To"] = receiver_email
     
