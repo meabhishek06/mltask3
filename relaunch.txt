@@ -1,0 +1,6 @@
+if sudo docker ps | grep d1
+then
+echo "already running"
+else
+sudo docker start d1
+fi

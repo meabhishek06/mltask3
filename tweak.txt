@@ -1,0 +1,1 @@
+sudo bash /root/task3/while.sh

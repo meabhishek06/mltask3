@@ -1,0 +1,1 @@
+sudo python3 /root/task3/mailer.py

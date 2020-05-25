@@ -1,0 +1,8 @@
+if sudo docker ps | grep d1
+then
+sudo docker exec  d1 python3.7 /train/mnist1.py
+#echo "already running"
+else
+sudo docker run -ditv /root/task3/:/train --name d1 mlws1:v2
+sudo docker exec  d1 python3.7 /train/mnist1.py
+fi
